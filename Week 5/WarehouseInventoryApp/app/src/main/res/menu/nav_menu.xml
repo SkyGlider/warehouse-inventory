@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/add_item_menu"
+        android:title="Add Item"
+        android:icon="@drawable/ic_add_black_24dp"/>
+    <item
+        android:id="@+id/clear_item_menu"
+        android:title="Clear Fields"
+        android:icon="@drawable/ic_clear_all_black_24dp"/>
+</menu>

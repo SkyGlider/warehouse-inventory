@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/AndrewPang/Documents/GitHub/FIT2081/SimpleActivityLifecycleDemoStudent/app/build/intermediates/res/merged/debug/values_values.arsc.flat",
+            "outputFile": "C:\\Users\\Andrew Pang\\Documents\\GitHub\\FIT2081\\Week 3\\SimpleActivityLifecycleDemoStudent\\app\\build\\intermediates\\res\\merged\\debug\\values_values.arsc.flat",
             "map": [
                 {
-                    "source": "/Users/AndrewPang/Documents/GitHub/FIT2081/SimpleActivityLifecycleDemoStudent/app/src/main/res/values/styles.xml",
+                    "source": "C:\\Users\\Andrew Pang\\Documents\\GitHub\\FIT2081\\Week 3\\SimpleActivityLifecycleDemoStudent\\app\\src\\main\\res\\values\\styles.xml",
                     "from": {
                         "startLines": "3",
                         "startColumns": "4",
@@ -23,7 +23,7 @@
                     }
                 },
                 {
-                    "source": "/Users/AndrewPang/Documents/GitHub/FIT2081/SimpleActivityLifecycleDemoStudent/app/src/main/res/values/dimens.xml",
+                    "source": "C:\\Users\\Andrew Pang\\Documents\\GitHub\\FIT2081\\Week 3\\SimpleActivityLifecycleDemoStudent\\app\\src\\main\\res\\values\\dimens.xml",
                     "from": {
                         "startLines": "2,3",
                         "startColumns": "4,4",
@@ -40,7 +40,7 @@
                     }
                 },
                 {
-                    "source": "/Users/AndrewPang/Documents/GitHub/FIT2081/SimpleActivityLifecycleDemoStudent/app/src/main/res/values/strings.xml",
+                    "source": "C:\\Users\\Andrew Pang\\Documents\\GitHub\\FIT2081\\Week 3\\SimpleActivityLifecycleDemoStudent\\app\\src\\main\\res\\values\\strings.xml",
                     "from": {
                         "startLines": "7,2,4,5,3",
                         "startColumns": "4,4,4,4,4",

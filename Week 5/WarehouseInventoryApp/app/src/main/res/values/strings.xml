@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Warehouse Inventory App</string>
+    <string name="itemName">itemname</string>
+    <string name="itemQty">itemqty</string>
+    <string name="itemCost">itemcost</string>
+    <string name="itemDesc">itemdesc</string>
+    <string name="itemFrozen">itemfrozen</string>
+    <string name="navigation_drawer_open">Open Drawer</string>
+    <string name="navigation_drawer_close">Close Drawer</string>
+
+</resources>

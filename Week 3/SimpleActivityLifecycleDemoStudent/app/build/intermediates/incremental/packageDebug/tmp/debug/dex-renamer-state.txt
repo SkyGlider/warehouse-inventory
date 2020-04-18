@@ -1,4 +1,4 @@
-#Wed Apr 01 17:47:14 MYT 2020
-base.0=/Users/AndrewPang/Documents/GitHub/FIT2081/SimpleActivityLifecycleDemoStudent/app/build/intermediates/dex/debug/mergeProjectDexDebug/out/classes.dex
+#Wed Apr 08 23:03:10 SGT 2020
+base.0=C\:\\Users\\Andrew Pang\\Documents\\GitHub\\FIT2081\\Week 3\\SimpleActivityLifecycleDemoStudent\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\out\\classes.dex
 path.0=classes.dex
 renamed.0=classes.dex

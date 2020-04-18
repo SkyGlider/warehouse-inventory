@@ -48,7 +48,7 @@ public class MainActivity extends AppCompatActivity {
         //retrieve shared pref and set textboxes
         restorePreferences();
 
-        //CODES FOR SMS RECEIVER
+        //CODES FOR SMS RECEIVER -WEEK 4 ONLY
         ActivityCompat.requestPermissions(this,new String[]{Manifest.permission.SEND_SMS, Manifest.permission.RECEIVE_SMS, Manifest.permission.READ_SMS}, 0);
         MyBroadcastReceiver myBroadcastReceiver =  new MyBroadcastReceiver();
         registerReceiver(myBroadcastReceiver, new IntentFilter(SMSReceiver.SMS_FILTER));
@@ -126,7 +126,7 @@ public class MainActivity extends AppCompatActivity {
         super.onRestoreInstanceState(inState);
     }
 
-    //broadcast receiver
+    //Broadcast receiver - WEEK 4 Feature
     class MyBroadcastReceiver extends BroadcastReceiver{
 
         @Override
@@ -142,7 +142,7 @@ public class MainActivity extends AppCompatActivity {
             qtyIn.setText(sT.nextToken());
             costIn.setText(sT.nextToken());
             descIn.setText(sT.nextToken());
-            if (sT.nextToken().toLowerCase() == "true") {
+            if (sT.nextToken().toLowerCase().equals("true")) {
                 frozenIn.setChecked(true);
             }else{
                 frozenIn.setChecked(false);

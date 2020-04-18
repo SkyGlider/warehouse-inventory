@@ -15,11 +15,11 @@
         android:onClick="numpadClick"
         android:text="8"
         android:textSize="15sp"
-        app:layout_constraintBottom_toTopOf="@+id/buttonFive"
+        app:layout_constraintBottom_toTopOf="@id/guideline5"
         app:layout_constraintEnd_toStartOf="@+id/buttonNine"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toEndOf="@+id/buttonSeven"
-        app:layout_constraintTop_toBottomOf="@+id/InterScreen" />
+        app:layout_constraintTop_toBottomOf="@id/guideline6" />
 
     <Button
         android:id="@+id/buttonNine"
@@ -28,11 +28,11 @@
         android:onClick="numpadClick"
         android:text="9"
         android:textSize="15sp"
-        app:layout_constraintBottom_toTopOf="@+id/buttonSix"
+        app:layout_constraintBottom_toTopOf="@id/guideline5"
         app:layout_constraintEnd_toStartOf="@+id/buttonSlash"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toEndOf="@+id/buttonEight"
-        app:layout_constraintTop_toBottomOf="@+id/InterScreen" />
+        app:layout_constraintTop_toBottomOf="@id/guideline6" />
 
     <Button
         android:id="@+id/buttonSlash"
@@ -42,11 +42,11 @@
         android:tag="'/'"
         android:text="/"
         android:textSize="15sp"
-        app:layout_constraintBottom_toTopOf="@+id/buttonMult"
+        app:layout_constraintBottom_toTopOf="@id/guideline5"
         app:layout_constraintEnd_toStartOf="@+id/guideline10"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toEndOf="@+id/buttonNine"
-        app:layout_constraintTop_toBottomOf="@+id/InterScreen" />
+        app:layout_constraintTop_toBottomOf="@id/guideline6" />
 
     <Button
         android:id="@+id/buttonFive"
@@ -83,7 +83,7 @@
         android:tag="'*'"
         android:text="*"
         android:textSize="15sp"
-        app:layout_constraintBottom_toTopOf="@+id/buttonMinus"
+        app:layout_constraintBottom_toTopOf="@id/guideline4"
         app:layout_constraintEnd_toStartOf="@+id/guideline10"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toEndOf="@+id/buttonSix"
@@ -101,7 +101,7 @@
         app:layout_constraintEnd_toStartOf="@+id/buttonThree"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toEndOf="@+id/buttonOne"
-        app:layout_constraintTop_toBottomOf="@+id/buttonFive" />
+        app:layout_constraintTop_toBottomOf="@id/guideline4" />
 
     <Button
         android:id="@+id/buttonThree"
@@ -114,7 +114,7 @@
         app:layout_constraintEnd_toStartOf="@+id/buttonMinus"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toEndOf="@+id/buttonTwo"
-        app:layout_constraintTop_toBottomOf="@+id/buttonSix" />
+        app:layout_constraintTop_toBottomOf="@id/guideline4" />
 
 
     <Button
@@ -143,7 +143,7 @@
         app:layout_constraintEnd_toStartOf="@+id/buttonEqual"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toEndOf="@+id/buttonDot"
-        app:layout_constraintTop_toBottomOf="@+id/buttonTwo" />
+        app:layout_constraintTop_toBottomOf="@id/guideline2" />
 
     <Button
         android:id="@+id/buttonEqual"
@@ -156,7 +156,7 @@
         app:layout_constraintEnd_toStartOf="@+id/buttonAdd"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toEndOf="@+id/buttonZero"
-        app:layout_constraintTop_toBottomOf="@+id/buttonThree" />
+        app:layout_constraintTop_toBottomOf="@id/guideline2" />
 
 
     <Button
@@ -171,7 +171,7 @@
         app:layout_constraintEnd_toStartOf="@+id/guideline10"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toEndOf="@+id/buttonEqual"
-        app:layout_constraintTop_toBottomOf="@+id/buttonMinus" />
+        app:layout_constraintTop_toBottomOf="@id/guideline2" />
 
     <Button
         android:id="@+id/buttonClear"
@@ -197,7 +197,7 @@
         app:layout_constraintBottom_toTopOf="@+id/guideline"
         app:layout_constraintEnd_toStartOf="@+id/buttonZero"
         app:layout_constraintStart_toStartOf="@+id/guideline8"
-        app:layout_constraintTop_toBottomOf="@+id/buttonOne" />
+        app:layout_constraintTop_toBottomOf="@id/guideline2" />
 
     <Button
         android:id="@+id/buttonOne"
@@ -209,7 +209,7 @@
         app:layout_constraintBottom_toTopOf="@+id/guideline2"
         app:layout_constraintEnd_toStartOf="@+id/buttonTwo"
         app:layout_constraintStart_toStartOf="@+id/guideline8"
-        app:layout_constraintTop_toBottomOf="@+id/buttonFour" />
+        app:layout_constraintTop_toBottomOf="@id/guideline4" />
 
     <Button
         android:id="@+id/buttonFour"
@@ -221,7 +221,7 @@
         app:layout_constraintBottom_toTopOf="@+id/guideline4"
         app:layout_constraintEnd_toStartOf="@+id/buttonFive"
         app:layout_constraintStart_toStartOf="@+id/guideline8"
-        app:layout_constraintTop_toBottomOf="@+id/buttonSeven" />
+        app:layout_constraintTop_toBottomOf="@id/guideline5" />
 
     <Button
         android:id="@+id/buttonSeven"
@@ -234,7 +234,7 @@
         app:layout_constraintEnd_toStartOf="@+id/buttonEight"
         app:layout_constraintHorizontal_bias="0.48"
         app:layout_constraintStart_toStartOf="@+id/guideline8"
-        app:layout_constraintTop_toBottomOf="@+id/InterScreen" />
+        app:layout_constraintTop_toBottomOf="@id/guideline6" />
 
     <TextView
         android:id="@+id/InterScreen"
@@ -249,7 +249,7 @@
         app:layout_constraintEnd_toStartOf="@+id/guideline10"
         app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="@+id/guideline8"
-        app:layout_constraintTop_toBottomOf="@+id/resultScreen" />
+        app:layout_constraintTop_toBottomOf="@id/guideline7" />
 
     <TextView
         android:id="@+id/resultScreen"
@@ -305,7 +305,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
-        app:layout_constraintGuide_percent="0.24" />
+        app:layout_constraintGuide_percent="0.24076608" />
 
     <android.support.constraint.Guideline
         android:id="@+id/guideline7"
