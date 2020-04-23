@@ -48,7 +48,7 @@ public class MainActivity extends AppCompatActivity {
     private SharedPreferences appPreferences;
     private SharedPreferences.Editor appEditor;
 
-
+    public static boolean isConfirmed;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -88,11 +88,13 @@ public class MainActivity extends AppCompatActivity {
 
         //Floating Action Button
         FloatingActionButton fab = findViewById(R.id.fab);
-
         fab.setOnClickListener(new View.OnClickListener() {
+
             @Override
             public void onClick(View view) {
                 addNewItem(view);
+                isConfirmed = true;
+
             }
         });
 

@@ -134,6 +134,7 @@ public class MainActivity extends AppCompatActivity {
 
             //get string from intent
             String msg = intent.getStringExtra(SMSReceiver.SMS_MSG_KEY);
+
             //use string tokenizer to seperate the ';' symbols
             StringTokenizer sT = new StringTokenizer(msg,";");
 

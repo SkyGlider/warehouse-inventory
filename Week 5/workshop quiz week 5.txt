@@ -1,0 +1,28 @@
+a) true is returned after handling an option menu item click to inform the parent class that the user's action is already handled by the code we inputted
+
+b) the main usage of the input paraemeter is to identify which menu item is selected by the user
+
+c) onOptionsItemSelected is called in the main activity class itself as it handles the action of a selected item in the options menu
+   whilst onnavigationItemSelected is implemented in the NavigationView listener's class and it handles the action of a selected item in the navigation drawer
+
+2)
+a)
+DrawerLayout drawer = findViewById(R.id.drawer_layout);
+ActionBarDrawerToggle toggle = new ActionBarDrawerToggle(this, drawer, toolbar, R.string.navigation_drawer_open, R.string.navigation_drawer_close);
+drawer.addDrawerListener(toggle);
+toggle.syncState();
+
+b)
+GravityCompat.START means the component will be pushed to the start(left-most) side of its parent container while 
+GravityCompate.END means the component will be pushed to the end(right-most) side of its parent container
+
+3)
+
+Snackbar.make(v, "Confirm Action?", Snackbar.LENGTH_LONG)
+	.setAction("YES", new View.OnClickListener(){
+		
+		public void onCLick(View v){
+			MainActivity.isConfirmed = true;	
+		}
+
+	}).show();
