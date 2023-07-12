@@ -5,7 +5,7 @@ A Java based Android application for Warehouse Inventory Management.
 
 ## Usage
 
-1. In android studio, open the prijet folder in /Week6 for the complete version of the App
+1. In android studio, open the project folder in /Week6/WarehouseInventoryApp for the complete version of the App
 
 2. Run the project.
 
