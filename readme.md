@@ -7,7 +7,7 @@ A Java based Android application for Warehouse Inventory Management.
 
 1. In android studio, open the project folder in /Week6/WarehouseInventoryApp for the complete version of the App
 
-2. Run the project.
+2. Run the project in a simulator.
 
 ## Contributing
 
